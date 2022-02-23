@@ -48,7 +48,7 @@
 				<strong>Username:</strong><br>
 				<input type="text" name="username" class="text" placeholder="Enter your username" required><br><br>
 				<strong>Password:</strong><br>
-				<input type="password" name="password" class="text" placeholder="Enter your password" required><br><br>
+				<input type="password" name="password" class="text" placeholder="Enter your password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,} required><br><br>
 				<strong>User Type:</strong><br>
 				<input type='radio' name='user_type' value='Customer' checked/> Customer  <input type='radio' name='user_type' value='Administrator'/>Administrator 
 				<br>
