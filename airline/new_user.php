@@ -46,7 +46,7 @@
 				</tr>
 				<tr>
 					<td>Enter your desired password  </td>
-					<td><input type="password" name="password" required><br><br></td>
+					<td><input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,} required><br><br></td>
 				</tr>
 				<tr>
 					<td>Enter your email ID</td>
